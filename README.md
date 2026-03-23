@@ -33,13 +33,13 @@ splendor-trial-activation/
 │   └── DA_task.csv                  ← Raw event log (170,526 rows)
 │
 ├── task1_python/
-│   └── Task1_analysis.ipynb         ← EDA, conversion analysis, goal definition
+│   └── TASK 1.ipynb                 ← EDA, conversion analysis, goal definition
 │
 ├── task2_sql/
-│   └── task2_sql_models.sql         ← Staging and mart layer SQL models
+│   └── TASK 2.sql                   ← Staging and mart layer SQL models
 │
 └── task3_python/
-    └── Task3_analysis.ipynb         ← Descriptive analytics and product metrics
+    └── TASK 3.ipynb                  ← Descriptive analytics and product metrics
 ```
 
 ---
@@ -117,7 +117,7 @@ Organisations that completed all three goals converted at a higher rate than tho
 
 ## Task 2: SQL Data Warehouse Models
 
-**File:** `task2_sql/task2_sql_models.sql`
+**File:** `TASK 2.sql`
 **Database:** SQL Server (T-SQL)
 
 ### Architecture
@@ -166,7 +166,7 @@ fct_trial_activation  ← Mart layer: trial_activated flag and activated_at (966
 
 ## Task 3: Descriptive Analytics and Product Metrics
 
-**Notebook:** `task3_python/Task3_analysis.ipynb`
+**Notebook:** `TASK 3.ipynb`
 
 This task runs structured descriptive analyses across six areas: conversion rate, time to convert, goal funnel, feature adoption, engagement depth, and product metrics. The findings are translated into concrete recommendations for the product team.
 
