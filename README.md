@@ -1,9 +1,28 @@
 # Splendor Analytics Trial Activation 
 
+![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/Language-SQL-e38c00?style=for-the-badge&logo=database&logoColor=white)
+![Tool](https://img.shields.io/badge/Tool-SSMS-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Tool-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge)
+
+---
+## 📚 Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset Description](#dataset-description)
+- [Project Objectives](#project-objectives)
+- [Repository Structure](#repository-structure)
+- [Task 1: EDA and Trial Goal Definition](#task-1-exploratory-data-analysis-and-trial-goal-definition)
+- [Task 2: SQL Data Warehouse Models](#task-2-sql-data-warehouse-models)
+- [Task 3: Descriptive Analytics and Product Metrics](#task-3-descriptive-analytics-and-product-metrics)
+- [Key Insights and Findings](#key-insights-and-findings)
+- [Recommendations](#recommendations)
+- [Results Summary](#results-summary)
 
 ---
 
-## Overview
+## Project Overview
 
 Only 1 in 5 organisations trialling the Splendor platform convert to paying customers. This project tackles that problem from three angles: defining what a successful trial actually looks like in behavioural terms, building the data infrastructure to track it at scale, and producing the descriptive analytics that show where the product is winning and where it is losing users.
 
@@ -18,6 +37,16 @@ The dataset contains 170,526 raw event log entries across 966 unique organisatio
 **SQL Server (T-SQL)** was used for Task 2 to build the structured data warehouse model, with views constructed in layers from raw ingestion through to the final activation fact tables.
 
 **Jupyter Notebook** served as the working environment for both Python tasks, keeping code, commentary, and charts together in one readable document.
+
+---
+
+##  Project Objectives
+
+- Explore and clean the raw event data to make it analysis-ready
+- Identify which in-app behaviours are associated with conversion
+- Define measurable Trial Goals that signal genuine product adoption
+- Build a SQL-based data warehouse model to track those goals at scale
+- Run descriptive analytics to surface actionable insights for the product team
 
 ---
 
@@ -117,8 +146,9 @@ Organisations that completed all three goals converted at a higher rate than tho
 
 ## Task 2: SQL Data Warehouse Models
 
-**File:** `TASK 2.sql`
-**Database:** SQL Server (T-SQL)
+**Notebook:** `TASK 2.sql`
+
+![Tool](https://img.shields.io/badge/Tool-SSMS-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
 ### Architecture
 
@@ -167,6 +197,8 @@ fct_trial_activation  ← Mart layer: trial_activated flag and activated_at (966
 ## Task 3: Descriptive Analytics and Product Metrics
 
 **Notebook:** `TASK 3.ipynb`
+
+![Jupyter](https://img.shields.io/badge/Tool-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 This task runs structured descriptive analyses across six areas: conversion rate, time to convert, goal funnel, feature adoption, engagement depth, and product metrics. The findings are translated into concrete recommendations for the product team.
 
@@ -265,8 +297,8 @@ Organisations that achieved Trial Activation converted at 23.2% compared to 21.2
 
 ## Results Summary
 
-| Task | Deliverable | Status |
+| Task | Deliverable |  |
 |---|---|---|
-| Task 1 | EDA + Trial Goal Definition (Python) | Complete |
-| Task 2 | SQL Mart Models (fct_trial_goals + fct_trial_activation) | Complete |
-| Task 3 | Descriptive Analytics + Product Metrics (Python) | Complete |
+| Task 1 | EDA + Trial Goal Definition (Python) | ![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge) |
+| Task 2 | SQL Mart Models (fct_trial_goals + fct_trial_activation) | ![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge) |
+| Task 3 | Descriptive Analytics + Product Metrics (Python) | ![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge) |
